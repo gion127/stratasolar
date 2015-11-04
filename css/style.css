@@ -8,6 +8,8 @@ body{
 p{
 	font-size: 14px;
 	line-height: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
 h1,
@@ -44,23 +46,6 @@ h5{
 	line-height: 12px;
 	letter-spacing: 0.2px;
 }
-
-/*--- General H styling ---*/
-.heroH1{
-	font-size: 56px;
-	line-height: 60px;
-	letter-spacing: 0.1px;
-	color: #ffffff;
-	max-width: 70%;
-	margin: 0 auto;
-	padding: 20px 0;
-}
-.heroH2{
-	color: #D8D8D8;
-	max-width: 70%;
-	margin: 0 auto;
-}
-
 
 /*--- General Buttons Styling ---*/
 .cta-button{
@@ -109,9 +94,9 @@ h5{
 /*--- General Hero Zone styling ---*/
 .heroZone{
 	height: 100%;
-	min-height: 800px;
+	min-height: 500px;
 	margin-top: 50px;
-	position: relative;
+
 
 	background-image   : linear-gradient(to right, rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.4)),
 						 url("../images/bg.jpg");
@@ -127,31 +112,67 @@ h5{
 
 .heroInner{
 	min-height: 110px;
-	padding-top: 15%;
+	padding-top: 7%;
 }
+
+/*--- General H styling ---*/
+.heroH1{
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: 0.1px;
+	color: #ffffff;
+	max-width: 70%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.heroH2{
+	color: #D8D8D8;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
 
 /*--- Main Content Area styling ---*/
 .mainContent{
 	background: #ffffff;
 	color: #000000;
+	
 }
+.highlightZone{
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #A6A6A6;
+	padding: 0 30px;
+}
+	.highlightZone p{
+		line-height: 20px;
+		padding: 0 5%;
+	}
+
 .infoZone{
 	background: transparent;
 	color: #ffffff;
 	margin-top: 56px;
-	margin-bottom: 56px;
+	margin-bottom: 28px;
 }
 	.infoZone h3{
-		background: #35B88F;
+		background: #f99d32;
 		display: inline;
 		padding: 10px 20px;
 		margin: 0;
+		font-size: 28px;
+		line-height: 30px;
+		letter-spacing: 0.2px;
 	}
+.argumentsZone{
+	background: #000000;
+	border-radius: 10px;
+	margin-top: -70px;
+}
 
 .jobArgument{
-	background: #ffffff;
 	padding: 20px 15px;
-	color: #555555;
 	text-align: center;
 }
 	.jobArgument img{
@@ -160,10 +181,16 @@ h5{
 	.jobArgument h4{
 		text-transform: uppercase;
 		padding: 10px;
+		color: #ffffff;
+		font-size: 28px;
+		line-height: 30px;
+		font-weight: 700;
+		letter-spacing: 0.8px;
 	}
 	.jobArgument p{
 		line-height: 20px;
 		letter-spacing: 0.3px;
+		color: #f2f1ef;
 	}
 
 .campaignAnnouncement{
@@ -205,8 +232,8 @@ h5{
 
 footer{
 	background: #000000;
-	color: #ffffff;
+	color: #f6F6F6;
 	font-size: 12px;
 	text-align: center;
-	padding: 10px 0;
+	padding: 30px 0;
 }
