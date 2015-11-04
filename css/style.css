@@ -54,7 +54,7 @@ h5{
 	max-width: 280px;
 }
 	.cta-button a{
-		background: #FF3500;
+		background: #f99d32;
 		color: #ffffff;
 		padding: 20px 40px;
 		border-radius: 5px;
@@ -76,7 +76,7 @@ h5{
 	}
 		.cta-button a:hover{
 			background-color: #232323;
-			color: #FF3500;
+			color: #f99d32;
 			text-decoration: none;
 
 			-web-kit-transition: background-color 0.5s ease;
